@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3347" started-at="2019-02-24T02:43:14Z" finished-at="2019-02-24T02:43:18Z">
+  <suite name="Default suite" duration-ms="3244" started-at="2019-02-27T02:38:41Z" finished-at="2019-02-27T02:38:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3347" started-at="2019-02-24T02:43:14Z" finished-at="2019-02-24T02:43:18Z">
-      <class name="GoogleAPI.Post">
-        <test-method status="PASS" signature="getData()[pri:0, instance:GoogleAPI.Post@462d5aee]" name="getData" is-config="true" duration-ms="9" started-at="2019-02-24T02:43:14Z" finished-at="2019-02-24T02:43:14Z">
+    <test name="Default test" duration-ms="3244" started-at="2019-02-27T02:38:41Z" finished-at="2019-02-27T02:38:44Z">
+      <class name="GoogleAPI.Creating_And_Deleting">
+        <test-method status="PASS" signature="getData()[pri:0, instance:GoogleAPI.Creating_And_Deleting@66d1af89]" name="getData" is-config="true" duration-ms="11" started-at="2019-02-27T02:38:41Z" finished-at="2019-02-27T02:38:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="Creating_Place()[pri:0, instance:GoogleAPI.Post@462d5aee]" name="Creating_Place" duration-ms="3320" started-at="2019-02-24T02:43:14Z" finished-at="2019-02-24T02:43:18Z">
+        <test-method status="PASS" signature="Creating_Deleting_Place()[pri:0, instance:GoogleAPI.Creating_And_Deleting@66d1af89]" name="Creating_Deleting_Place" duration-ms="3214" started-at="2019-02-27T02:38:41Z" finished-at="2019-02-27T02:38:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Creating_Place -->
-      </class> <!-- GoogleAPI.Post -->
+        </test-method> <!-- Creating_Deleting_Place -->
+      </class> <!-- GoogleAPI.Creating_And_Deleting -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

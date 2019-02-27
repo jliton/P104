@@ -1,8 +1,8 @@
 package POM;
 
 public class payLoad {
-
-	public static String PL() {
+public String name="Google Shoes";
+	public static String PL(String name) {
 		
 		String PayLoad="{"+
 				  "\"location\": {"+
@@ -10,7 +10,7 @@ public class payLoad {
 				    "\"lng\": 151.1958750"+
 				  "},"+
 				  "\"accuracy\": 50,"+
-				  "\"name\": \"Google Shoes!\","+
+				  "\"name\": \""+name+"!\","+
 				  "\"phone_number\": \"(01) 9374 4000\","+
 				  "\"address\": \"48 Pirrama Road, Pyrmont, NSW 2009, Australia\","+
 				  "\"types\": [\"shoe_store\"],"+
