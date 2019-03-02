@@ -25,7 +25,7 @@ public class Creating_And_Deleting {
 @Test
 
 //Creating
-	public void Creating_Deleting_Place() throws IOException {
+	public void Creating_Deleting_Places() throws IOException {
 
 		DataFile.ReadingDataFile();
 
