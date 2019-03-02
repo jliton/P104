@@ -2,20 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3244" started-at="2019-02-27T02:38:41Z" finished-at="2019-02-27T02:38:44Z">
+  <suite name="Default suite" duration-ms="3257" started-at="2019-03-02T21:41:25Z" finished-at="2019-03-02T21:41:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3244" started-at="2019-02-27T02:38:41Z" finished-at="2019-02-27T02:38:44Z">
-      <class name="GoogleAPI.Creating_And_Deleting">
-        <test-method status="PASS" signature="getData()[pri:0, instance:GoogleAPI.Creating_And_Deleting@66d1af89]" name="getData" is-config="true" duration-ms="11" started-at="2019-02-27T02:38:41Z" finished-at="2019-02-27T02:38:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getData -->
-        <test-method status="PASS" signature="Creating_Deleting_Place()[pri:0, instance:GoogleAPI.Creating_And_Deleting@66d1af89]" name="Creating_Deleting_Place" duration-ms="3214" started-at="2019-02-27T02:38:41Z" finished-at="2019-02-27T02:38:44Z">
+    <test name="Default test" duration-ms="3257" started-at="2019-03-02T21:41:25Z" finished-at="2019-03-02T21:41:28Z">
+      <class name="Test.Creating_And_Deleting">
+        <test-method status="PASS" signature="Creating_Deleting_Place()[pri:0, instance:Test.Creating_And_Deleting@612fc6eb]" name="Creating_Deleting_Place" duration-ms="3235" started-at="2019-03-02T21:41:25Z" finished-at="2019-03-02T21:41:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Creating_Deleting_Place -->
-      </class> <!-- GoogleAPI.Creating_And_Deleting -->
+      </class> <!-- Test.Creating_And_Deleting -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
