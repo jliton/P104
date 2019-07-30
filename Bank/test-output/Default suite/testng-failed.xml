@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test.Creating_And_Deleting">
+      <class name="javao.Switch_St">
         <methods>
-          <include name="Creating_Deleting_Place"/>
+          <include name="Con"/>
         </methods>
-      </class> <!-- Test.Creating_And_Deleting -->
+      </class> <!-- javao.Switch_St -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

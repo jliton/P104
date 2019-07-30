@@ -25,7 +25,7 @@ public class Creating_And_Deleting {
 @Test
 
 //Creating
-	public void Creating_Deleting_Places() throws IOException {
+	public void Creating_Deleting_Places  () throws IOException {
 
 		DataFile.ReadingDataFile();
 
@@ -37,6 +37,9 @@ public class Creating_And_Deleting {
 				// Response validation
 				then().assertThat().statusCode(200).and().contentType(ContentType.JSON).and()
 				.body("status", equalTo("OK")).extract().response();
+		
+		
+		
 
 		String ResponseString = res.asString();
 		// System.out.println("Before code:" + ResponseString);
@@ -49,12 +52,15 @@ public class Creating_And_Deleting {
 		HashMap<String, String> cap = new HashMap<String, String>();
 		cap.put("ID", PlaceId);
 
+		
 		// DeletingPLace
 
 		RestAssured.baseURI = DataFile.Data.getProperty("Host");
 		given().queryParam("key", DataFile.Data.getProperty("key")).
 
-				body("{" + "\"place_id\":\"" + cap.get("ID") + "\"}").when().post(resources_Calls.placeDelete()).then()
+				body("{" + "\"place_id\":\"" + cap.get("ID") + "\"}").
+				when().post(resources_Calls.placeDelete()).
+				then()
 				.assertThat().statusCode(200).and().contentType(ContentType.JSON).and().body("status", equalTo("OK"));
 
 	}
